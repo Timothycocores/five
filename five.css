@@ -1,4 +1,35 @@
 
 .jumbotron{
 	background-image: url("http://static1.squarespace.com/static/5016d42984ae3ecc9e018d91/t/517ea30de4b08478235052a9/1367253777549/5209625883_4f8813122b_o.jpg?format=2500w");
+	height: 475px;
+	background-position: bottom;
+	color: white;
+	font-family: helvetica;
+}
+
+#title{
+	padding-top: 100px;
+}
+
+ul {
+    list-style-type: none;
+    margin-left: 60px;
+    padding: 0;
+    overflow: hidden;
+	
+}
+
+li {
+    float: left;
+	padding-top: 20px;
+	padding-bottom:10px;
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-weight: 300;
+    font-style: normal;
+}
+
+a {
+    display: block;
+    width: 200px;
+    
 }
