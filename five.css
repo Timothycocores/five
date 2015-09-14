@@ -1,4 +1,7 @@
 
+body{
+	padding-bottom: 60px;
+}
 .jumbotron{
 	background-image: url("http://static1.squarespace.com/static/5016d42984ae3ecc9e018d91/t/517ea30de4b08478235052a9/1367253777549/5209625883_4f8813122b_o.jpg?format=2500w");
 	height: 475px;
@@ -32,4 +35,19 @@ a {
     display: block;
     width: 200px;
     
+}
+
+.caption{
+	font-family: helvetica;
+	text-align: center;
+	padding-left: 200px;
+	padding-right: 200px;
+}
+
+.newspaper {
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+    padding-left: 60px;
+    font-family: helvetica;
 }
